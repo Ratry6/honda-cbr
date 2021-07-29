@@ -11,81 +11,226 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!----custom style css-->
     <link rel="stylesheet" href="style.css">
+    <!----Font Awesome-->
+    <script src="https://kit.fontawesome.com/dab8dab743.js" crossorigin="anonymous"></script>
+    <!----Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <section class="top-part w-100 p-5 d-flex">
-            <!-- header description -->
-            <div class="p-5 w-100">
-                <h2 class="fs-6 text-white">Computer-controlled digital transistorized with electronic advance</h2>
-                <h1 class="fs-3 text-white fw-bold mb-2">Honda CBR 300R</h1>
-                <p class="fs-5 text-light fw-light mb-3">Amet minim mollit non deserunt ullamco est sit <br> aliqua
-                    dolor do amet sint.Velit officia consequat <br> duis enim velit mollit.Exercitation veniam
-                    <br>consequat sunt nostrud amet
-                </p>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary purchasing fs-6 rounded-2 mb-15" data-bs-toggle="modal"
-                    data-bs-target="#staticBackdrop">
-                    Purchase
-                </button>
+    <header class="top-part mb-4">
+        <section class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-12">
+                    <p class="top-title">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="fw-bold fs-1 text-white mb-2">Honda CBR 300R</h1>
+                    <p class="top-title mb-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                        Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn purchasing rounded" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title fw-bold fs-3 text-success" id="staticBackdropLabel">Happy
-                                    Shopping</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <h1 class="fs-4 text-warning">We're offering interest free service payments. </h1>
-                                <p class="fs-6 text-secondary">Pay for your new tires or service without worrying about
-                                    high credit
-                                    card fees.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Make Purchase Now</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-success fw-bold fs-3" id="exampleModalLabel">Happy
+                                        Shopping</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h2 class="text-danger">We're offering you interest free offers to make you
+                                        relaxable.</h2>
+                                    <p class="fs-4 text-info">So make a purchase happily & you can get new tires or
+                                        service
+                                        without worrying of having higher credit card.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Purchase Now</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-            </div>
-            <!-- header image -->
-            <div class="w-70">
-                <img src="images/header-bike.png" alt="">
+
+                </div>
+                <div class="col-lg-6 col-12">
+                    <img class="w-100" src="./images/header-bike.png" alt="">
+                </div>
             </div>
         </section>
+
     </header>
     <main>
-        <section class="features">
-            <h1 class="fs-3 fw-bold text-center pt-4 text-dark">Fetured Bikes 2021</h1>
-            <h3 class="collection text-danger text-center">Best bike collection</h3>
-            <div>
-                <img style="height:243px;width:288px;" src="images/feature-bike.jpg" alt="">
+        <!-- Features -->
+        <h1 class="fs-1 fw-bold text-center">Fetured Bikes 2021</h1>
+        <section class="container mt-5">
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-12">
+                    <img class="w-100 grayscale" src="./images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-12">
+                    <img class="w-100" src="./images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4 col-12">
+                    <img class="w-100 grayscale" src="./images/feature-bike.jpg" alt="">
+                </div>
             </div>
         </section>
 
         <!----HAPPY CLIENTS-->
 
-        <section class="happy-clients">
-            <h1 class="fw-bold fs-3 text-center mb-5">Happy <span style="color:orangered">Client Says</span></h1>
-            <div class="clients d-flex justify-content-around">
-                <div>
-                    <img src="images/user-1.png" alt="">
+        <section class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/user-2.png" alt="">
+                <div class="col">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/user-3.jpg" alt="">
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/user-3.jpg" class="card-img-top rounded-circle card-img mx-auto mt-3 d-block"
+                            alt="...">
+                        <div class="card-body">
+
+                            <p class="text-center">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year..</p>
+                            <p class="text-center">
+                                <i class="fill-icon fas fa-star"></i>
+                                <i class="fill-icon fas fa-star"></i>
+                                <i class="fill-icon fas fa-star"></i>
+                                <i class="fill-icon fas fa-star"></i>
+                                <i class="empty-icon far fa-star"></i>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Asking Questions -->
+        <section class="container my-5">
+            <h1 class="fw-bold fs-4 text-center">Frequently Asked <span style="color:orangered">Questions</span></h1>
+            <div class="row mt-5">
+                <div class="col-lg-6 col-12">
+                    <img class="w-100" src="./images/faq.png" alt="">
+
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #4
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+
+
+
         </section>
     </main>
 

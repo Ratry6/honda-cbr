@@ -2,22 +2,56 @@
 ----------------*/
 .top-part{
     background-color: #264653;
-    ;
+    height: 670px;
 }
+.top-title{
+    font-family: 'Poppins';
+    font-size: 14px;
+    color:#FFFFFF;
+    
+    }
+
 .purchasing{
     background-color:#E76F51;
     padding: 10px 46px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    
+
 }
 
 /*------Feature & collection----
 ----------------*/
+.grayscale{
+    filter: grayscale(1);
+}
 .collection{
     font-size: 14px;
 }
 
 /*------Happy Clients----
 ----------------*/
-.clients img{
+.client-border{
+    border-color: #DEDEDE;
+}
+.card-img{
     width: 149px;
-height: 149px;
+    height: 149px;
+}
+.fill-icon{
+    color: #E77C40;
+
+}
+.empty-icon{
+    color: #E77C40;
+
+}
+
+/*------FAQ----
+----------------*/
+.faq-img{
+    width: 200px;
+height: 200px;
 }
