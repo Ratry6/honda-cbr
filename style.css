@@ -57,3 +57,13 @@
     width: 200px;
 height: 200px;
 }
+/*------Bonus-part-1----
+----------------*/
+.brands{
+    background-color: rgb(204, 162, 176);
+}
+.brand-name{
+    color: rgb(163, 21, 116);
+    text-align: center;
+    margin: 8px;
+}
