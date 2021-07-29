@@ -8,3 +8,16 @@
     background-color:#E76F51;
     padding: 10px 46px;
 }
+
+/*------Feature & collection----
+----------------*/
+.collection{
+    font-size: 14px;
+}
+
+/*------Happy Clients----
+----------------*/
+.clients img{
+    width: 149px;
+height: 149px;
+}
