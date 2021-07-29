@@ -18,18 +18,20 @@
     font-weight: 500;
     font-size: 16px;
     color: #FFFFFF;
-    
-
-}
+    }
 
 /*------Feature & collection----
 ----------------*/
+.collection{
+    font-family: 'Poppins';
+    font-weight: 500;
+    color:#E76F51;
+    font-size: 14px;
+}
 .grayscale{
     filter: grayscale(1);
 }
-.collection{
-    font-size: 14px;
-}
+
 
 /*------Happy Clients----
 ----------------*/
